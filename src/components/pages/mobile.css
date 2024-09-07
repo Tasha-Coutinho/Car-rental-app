@@ -1,0 +1,222 @@
+
+:root{
+  --main-color1:#115E59;
+  --main-color2: #E17654;
+--main-color3:#FFEAD0;
+--main-color4:#161616;
+}
+
+
+.van1{
+  background-image: url(../images/dreamfinder.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.van{
+  @media  (max-width:399px){
+  width: 260px;
+  height: 260px;
+  } 
+  @media (min-width:400px) and (max-width:599px){
+    width: 370px;
+    height:370px;
+  }
+
+  @media (min-width:600px) and (max-width:800px){
+    width: 430px;
+    height:430px;
+  }
+
+  @media (min-width:801px){
+    width: 330px;
+    height:330px;
+  }
+
+  @media (min-width:900px){
+    width: 380px;
+    height:330px;
+  }
+
+  @media (min-width:1000px){
+    width:410px;
+    height:380px;
+  }
+
+}
+
+.van-details-main{
+  @media  (max-width:399px){
+    width: 260px;
+    }
+  @media (min-width:400px) and (max-width:599px){
+    width: 370px;
+  }
+  @media (min-width:600px) and (max-width:800px){
+    width: 430px;
+  }
+
+  @media (min-width:801px){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  } 
+
+  @media (min-width:930px){
+    gap: 3rem;
+  }
+
+  @media (min-width:1100px){
+scale: 1.1;
+padding-top:90px;
+}
+
+@media (min-width:1380px){
+  scale: 1.17;
+  padding-top:120px;
+  }
+
+  @media (min-width:1500px){
+    scale: 1.25;
+    padding-top:135px;
+    }
+
+    @media (min-width:1600px){
+      scale: 1.35;
+      padding-top:140px;
+      }
+
+      @media (min-width:1700px){
+        scale: 1.4;
+        padding-top:155px;
+        }
+
+        @media (min-width:1800px){
+          scale: 1.54;
+          padding-top:160px;
+          }
+
+          @media (min-width:1900px){
+            scale: 1.7;
+            padding-top:200px;
+            }
+  }
+
+  .van-text{
+    @media (min-width:801px){
+      width: 330px;
+    }
+
+    @media (min-width:1000px){
+      width:380px;
+    }
+  }
+  
+  .van-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Rugged-btn{
+  background-color:#E17654;
+  color: #FFEAD0;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+
+  @media(min-width:801px){
+    width: 130px;
+  height: 35px;
+   }
+}
+
+.Products-info p{
+  font-weight: bold;
+}
+
+.links2 span{
+  font-weight: lighter;
+ 
+}
+
+.links2{
+  @media (min-width:801px){
+   font-size:30px;
+  }
+}
+
+.bg-scrnbtn{
+  @media(max-width:800px){
+   display: none;
+  }
+}
+
+.sm-scrnbtn{
+  @media(min-width:801px){
+   display: none;
+  }
+}
+
+.carname-btn{
+  @media(min-width:801px){
+    font-size:30px;
+   }
+}
+
+.main-text{
+  text-align: start;
+  color: black;
+  @media(min-width:801px){
+    font-size:18px;
+   }
+}
+
+.van-text .bg-scrnbtn{
+  @media(min-width:801px){
+    font-size:30px;
+   }
+}
+
+.bg-scrnbtns{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.Rent-btn{
+  background-color: #FF8C38;
+}
+
+.Rent-btn:hover{
+  background-color: transparent;
+  color: #FF8C38;
+  border: 3px solid #FF8C38;
+}
+
+.prev-van-links a{
+  color: #000;
+  text-decoration: none;
+}
+
+.van-details{
+  background-color:#FFF7ED;
+margin-top: -40px;
+margin-bottom: 80px;
+}
+.Rent-btn{
+  background-color: #FF8C38;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+
+  @media(min-width:801px){
+    width: 130px;
+  height: 35px;
+   }
+}

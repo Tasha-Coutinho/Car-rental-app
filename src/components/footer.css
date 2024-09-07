@@ -1,0 +1,12 @@
+.footer-div{
+  background-color:#252525;
+  width: 100%;
+  height: 10vh;
+  margin-top: -40px;
+}
+
+p{
+  color: #AAAAAA;
+  text-align: center;
+  padding-top:20px;
+}
