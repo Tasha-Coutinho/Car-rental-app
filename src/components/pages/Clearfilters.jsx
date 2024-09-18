@@ -1,4 +1,3 @@
-//Clearfilters.jsx
 
 import React from "react";
 import "./clearfilters.css";

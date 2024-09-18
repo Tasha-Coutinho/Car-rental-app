@@ -6,4 +6,3 @@ export * from "./Simple";
 export * from "./Rugged";
 export * from "./Luxury";
 export * from "./Clearfilters";
-export* from "./Modestexplorer";
